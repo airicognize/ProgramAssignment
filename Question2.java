@@ -1,5 +1,6 @@
 import java.util.*;
 import java.text.*;
+
 /*
 We are writing a program that prompts the user for the price of a product
 in CAD, and outputs the vaulues of sales tax in Quebec (TPS+ TVQ), tips of 15%
@@ -18,11 +19,11 @@ public class Question2{
 
     DecimalFormat formatter = new DecimalFormat("#0.00");
     System.out.println("\n*** Total amount ***"
-                       + " \nTPS = 5%"
-                       + " \nTVQ = 10%"
+                       + "\nTPS = 5%"
+                       + "\nTVQ = 10%"
                        + "\nTIPS = 15%"
-                       + " \nProduct = " + formatter.format(price) + "$"
-                       + " \nTotal amount = " + formatter.format((price*taxestip)+price) + "$");
+                       + "\nProduct = " + formatter.format(price) + "$"
+                       + "\nTotal amount = " + formatter.format((price*taxestip)+price) + "$");
 
   }
 
