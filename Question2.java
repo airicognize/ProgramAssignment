@@ -1,5 +1,6 @@
 import java.util.*;
 import java.text.*;
+
 /*
 We are writing a program that prompts the user for the price of a product
 in CAD, and outputs the vaulues of sales tax in Quebec (TPS+ TVQ), tips of 15%
