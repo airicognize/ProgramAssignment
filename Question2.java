@@ -18,11 +18,11 @@ public class Question2{
 
     DecimalFormat formatter = new DecimalFormat("#0.00");
     System.out.println("\n*** Total amount ***"
-                       + " \nTPS = 5%"
-                       + " \nTVQ = 10%"
+                       + "\nTPS = 5%"
+                       + "\nTVQ = 10%"
                        + "\nTIPS = 15%"
-                       + " \nProduct = " + formatter.format(price) + "$"
-                       + " \nTotal amount = " + formatter.format((price*taxestip)+price) + "$");
+                       + "\nProduct = " + formatter.format(price) + "$"
+                       + "\nTotal amount = " + formatter.format((price*taxestip)+price) + "$");
 
   }
 
