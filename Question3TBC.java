@@ -1,7 +1,7 @@
 import java.util.*;
 import java.math.*;
 
-public class Question3{
+public class Question3TBC{
 
   public static void main(String[] args){
 
