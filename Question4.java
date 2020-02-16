@@ -15,7 +15,7 @@ public class Question4 {
       Scanner sc = new Scanner(System.in);
       System.out.println("Please enter the URL for verification.");
       String url = sc.nextLine();
-      String https = "https";
+      String https = "https://";
       int length = url.length();
       System.out.println("You've entered, " + url.trim());
       System.out.println("Verifying an URL with " + length + " characters...");
