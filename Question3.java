@@ -7,14 +7,17 @@ public class Question3{
     Scanner sc = new Scanner(System.in);
     System.out.println("\n****** Addition Calculation ******"
                        + "\nEnter 3 whole digits to calculate an adition");
-    int numbers1 = sc.nextInt();
-    System.out.println("That's 1");
-    int numbers2 = sc.nextInt();
-    System.out.println("That's 2");
-    int numbers3 = sc.nextInt();
-    System.out.println("And 3! \nCalculating..");
-    int total = numbers1+numbers2+numbers3;
-    System.out.println("\nThe total of your digits is " + total  + ".");
+    String number = sc.nextLine();
+    String whole = number.substring(0,1);
+    String whole2 = number.substring(1,2);
+    String whole3 =number.substring(2);
+    int num1 = Integer.parseInt(whole);
+    int num2 = Integer.parseInt(whole2);
+    int num3 = Integer.parseInt(whole3);
+    int sum = num1+num2+num3;
+    
+
+    System.out.println("\nThe total of your digits is " + sum + ".");
 
   }
 }
