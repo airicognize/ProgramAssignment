@@ -16,7 +16,6 @@ public class Question3{
     int num3 = Integer.parseInt(whole3);
     int sum = num1+num2+num3;
     
-
     System.out.println("\nThe total of your digits is " + sum + ".");
 
   }
